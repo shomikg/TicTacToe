@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body {
+    font-family: Fjalla one, sans-serif;
+    /* background-color: rgb(234, 154, 178); */
+  }
+  #main_board {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:280px;
+    width:280px;
+    background:rgba(0,0,0,.6);
+    box-shadow: inset 0px 0px 0px 8px white;
+    margin:-2px;
+    border:none;
+    /* background-color: rgb(234, 154, 178); */
+  }
+  
+  #settings {
+    position:absolute;
+    z-index:10;
+    background: rgba(255,255,255,1);
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:8px;
+    color:rgba(0,0,0,.6);
+    box-shadow:rgba(0,0,0,.2) 0px 4px 8px 2px;
+    border-radius:8px;
+
+  }
+  .circle,.crosses {
+    opacity:.5;
+    cursor:pointer;
+  }
+  .circle:hover {
+    opacity:1;
+  }
+  .crosses:hover {
+    opacity:1;
+  }
+  
+  #score {
+    position:absolute;
+    z-index:10;
+    background: rgba(255,255,255,1);
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:20px;
+    color:rgba(0,0,0,.6);
+    box-shadow:rgba(0,0,0,.2) 0px 4px 8px 2px;
+    border-radius:8px;
+  }
+  
+  #again {
+    cursor:pointer;
+  }
+  #again:hover {
+      color:coral;
+    }
+  .hidden {
+    display:none;
+  }
+  
+  .r {
+    color:rgba(0,0,0,.2);
+  }
+  
+  .slot {
+    position:relative;
+    display:inline-block;
+    background:white;
+    height: 90px;
+    width:90px;
+    margin:0px;
+
+  }
+  
+  .cross {
+    position:absolute;
+    background:coral;
+    height:60px;
+    width:10px;
+    top:15px;
+    left:40px;
+    transform: rotate(45deg);
+  }
+  
+  
+  .cross:nth-child(2) {
+    transform: rotate(-45deg);
+  }
+  
+  .crosses {
+    opacity:.5;
+  }
+  
+  .circle {
+    position:absolute;
+    background:white;
+    opacity:.5;
+    height:40px;
+    width:40px;
+    border: solid 10px coral;
+    border-radius:50%;
+    top:15px;
+    left:15px;
+  }
+  
