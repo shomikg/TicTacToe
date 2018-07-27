@@ -1,6 +1,6 @@
 # TicTacToe game
 
-Live on - https://shomikg.github.io/TicTacToe-Shom/
+Live on - https://shomikg.github.io/TicTacToe/
 A short interactive game developed using Vanilla JS to play the game of TIC-TAC-TOE with a simple AI robot.
 
 ![Web application with a text message suggesting you have won](screenshot.JPG)
