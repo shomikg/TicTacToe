@@ -31,6 +31,13 @@ body {
     border-radius:8px;
 
   }
+  footer
+ {
+     
+     position:absolute;
+     bottom:5%;
+     left:46%;
+ }
   .circle,.crosses {
     opacity:.5;
     cursor:pointer;
